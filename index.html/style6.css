@@ -1,0 +1,9 @@
+body{
+    background-image: url(up3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+a{
+    border: 2px solid;
+}

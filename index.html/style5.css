@@ -1,0 +1,29 @@
+div{
+   background-color: aqua;
+    width:100px;
+    height:100px;
+    display:inline-block ;
+    visibility:show ;
+}
+span{
+    background-color: red;
+    width:100px;
+    height:100px;
+    display: inline-block;
+    visibility:show;
+}
+.box1{
+    width:200px;
+    height:200px;
+    background-color: aqua;
+    position:sticky;
+    top:0px;
+}
+.box2{
+   width: 100px;
+   height: 100px;
+   background-color: red;
+   position: absolute;
+   top: 50px;
+   left :50px;
+}

@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.navbar{
+    height: 50px;
+    background-color: black;
+    border: 2px solid white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.point1{
+align-items: center;
+}
+.point2{
+margin-top: 0px;
+}
+.panel{
+    height:50px;
+    width: 100%;
+    border: 2px solid white;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.panelopt{
+    display: inline flex;
+}
+.img{
+    margin-left: 20px;
+}
+.panelopt pre{
+    color:antiquewhite;
+    font-weight: 400;
+}
+.star{
+   display: inline flex;
+   align-items: center;
+}
+.button{
+    align-items: center;
+    display: inline flex;
+    margin-right: 20px;
+}
+/*bg color kyu nahi lag rha*//*stylesheet ki spelling galat likhi thi*/
+
+.belownav{
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-text{
+    float: left;
+    justify-content: center;
+    text-align: center;
+}
+
+.right-text{
+    float: right;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    padding-inline: 80px;
+  text-align: left;
+  font-size: 20px;
+    
+}
+
+.announcing{
+    background-color: rgb(47, 3, 12);
+    font-size: 20px;
+    padding: 2px;
+}
+
+.get-started{
+
+    background-color: rgb(255, 94, 215);
+    font-size: 23px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.main1{
+    display: flex;
+    padding: 30px;
+}
+.main1-text{
+ float: left;
+ text-align: left;
+ padding: 30px;
+
+}
+.last
+{
+    
+}
+

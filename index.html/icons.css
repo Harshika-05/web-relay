@@ -1,0 +1,15 @@
+.icons{
+    text-align: center;
+}
+.fa-solid.fa-house.fa-5xs{
+color:bisque;
+}
+.fa-brands.fa-twitter.fa-5xs:hover{
+color:aqua;
+}
+.fa-brands.fa-youtube.fa-5xs:hover{
+color:red;
+}
+.fa-brands.fa-tiktok:hover{
+color:black;
+}

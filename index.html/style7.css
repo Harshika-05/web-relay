@@ -1,0 +1,9 @@
+li:hover{
+    background-color: bisque;
+}
+li:not(:hover){
+    background-color: cadetblue;
+}
+li:nth-child(2n+1){
+    background-color:red ;
+}

@@ -1,0 +1,30 @@
+#p1{
+    border: 5px solid;
+    height:20px;
+    overflow: visible;
+}
+#p2{
+    border: 5px solid;
+    height:20px;
+    overflow: hidden;
+}
+#p3{
+    border: 4px solid;
+    height:35px;
+    width: 500px;
+    overflow: scroll;
+}
+#p4{
+    border: 5px solid;
+    height:20px;
+    overflow:clip;
+    overflow-clip-margin: 14px;
+}
+#p5{
+    border: 5px solid;
+    height:20px;
+    overflow:auto ;
+}
+body{
+    background-color: pink;
+}

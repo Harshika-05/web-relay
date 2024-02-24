@@ -1,0 +1,39 @@
+#box{
+    width:250px;
+    height:250px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+    animation-name:glow;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+@keyframes slideleft{
+    from{transform: translateX(300%)}
+}
+@keyframes rotate{
+    50%{transform: translateZ(360deg)}
+}
+@keyframes grow{
+    50%{transform:scale(2,2)}
+}
+@keyframes shrink{
+    50%{transform:scale(0.5,0.5)}
+}
+@keyframes fade{
+    100%{opacity:1}
+}
+@keyframes colorchange{
+    0%{background-color: red;}
+    20%{background-color: rgb(240, 170, 39);}
+    40%{background-color: rgb(165, 165, 22);}
+    60%{background-color: rgb(44, 240, 44);}
+    80%{background-color: rgb(27, 182, 238);}
+    100%{background-color: blueviolet;}
+}
+@keyframes glow{
+    50%{box-shadow:0px  0px 50px blue}
+}
